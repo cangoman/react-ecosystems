@@ -1,11 +1,14 @@
 import React from 'react';
+import NewTodoForm from './todos/NewTodoForm'
 import './App.css';
 import { hot } from 'react-hot-loader/root'
+import TodoList from './todos/TodoList'
 
 
 const App = () => (
   <div className="App">
-    <h1>Hello, World!!!!</h1>
+    <NewTodoForm />
+    <TodoList/>
   </div>
    );
 
